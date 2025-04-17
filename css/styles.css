@@ -67,6 +67,40 @@ nav {
     color: #10B981;
 }
 
+.logo {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.hero-image {
+    width: 100%;
+    max-width: 1920px;
+    height: 600px;
+    object-fit: cover; /* Ensures proper scaling */
+}
+
+.service-tier img {
+    width: 80px; /* Reduced from 100px */
+    height: 80px;
+    object-fit: contain; /* Prevents stretching */
+}
+
+.team-image {
+    width: 100%;
+    max-width: 800px;
+    height: 400px;
+    object-fit: cover; /* Ensures proper scaling */
+    margin: 20px 0;
+}
+
+.insurance-badge {
+    width: 200px;
+    height: 200px;
+    object-fit: contain; /* Prevents stretching */
+}
+
 /* Hero */
 .hero {
     position: relative;
